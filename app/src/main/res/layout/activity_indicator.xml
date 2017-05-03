@@ -33,16 +33,18 @@
             android:text="SHOW"
             android:onClick="showClick"
             />
-
+        
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="HIDE"
-            android:onClick="hideClick"
-            />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                anfroid:layout_weight="1"
+                android:text="HIDE"
+                android:onCLick="hideClick"
+        />
 
     </LinearLayout>
+    
+    
 
 
 </LinearLayout>
